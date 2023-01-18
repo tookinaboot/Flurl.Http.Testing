@@ -1,6 +1,8 @@
 # Flurl.Http.Testing
 
-Flurl.Http.Testing is a variation of Flurl.Http, which modifies some features to extends others to provide support for things commonly needed to effectively test HTTP APIs.
+Flurl.Http.Testing is a variation of Flurl.Http,which modifies and extends features to provide support for things commonly needed to effectively test HTTP APIs from the API consumer's perspective.
+This library also the unit testing features of Flurl.Http, which provides features needed to unit test code, which uses Flurl.Http to make HTTP calls.
+Instead, this library's testing features are strictly related to consuming an API in a deployed environment - In other words, to integration test, not unit test the API.
 
 ## What is different or added from vanilla Flurl.Http
 
