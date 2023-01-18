@@ -8,7 +8,7 @@ Flurl.Http.Testing is a variation of Flurl.Http, which modifies some features to
 2. Fluent skipping serialization of properties within HTTP bodies to enable easily testing things like backwards compatibility without having different versions of C# classes with JsonIgnore attributes.
 3. Fluent asserts on IFluentResponse to make tests more readable
 
-# ORIGINAL README FROM https://github.com/tmenier/Flurl
+### Original Readme from fork https://github.com/tmenier/Flurl
 
 [![Build status](https://ci.appveyor.com/api/projects/status/hec8ioqg0j07ttg5/branch/master?svg=true)](https://ci.appveyor.com/project/kroniak/flurl/branch/master)
 [![Flurl-stable](https://img.shields.io/nuget/v/Flurl.svg?maxAge=3600&label=Flurl%20nuget)](https://www.nuget.org/packages/Flurl/)
